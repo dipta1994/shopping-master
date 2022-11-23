@@ -25,7 +25,6 @@ function Shop({handleClick}){
     }
     setName(keyword)
 }
-
     return(
         <>
         <input type="search" value={name} onChange={handleSearch} className="input" placeholder="Filter" />
